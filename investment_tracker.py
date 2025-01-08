@@ -62,6 +62,12 @@ class InvestmentTracker:
         self.categories.add(category)
         return True
 
+    def add_bread(self):
+        self.record_transaction(100, "food", "Bread")
+
+    def add_milk(self):
+        self.record_transaction(100, "food", "Milk")
+
 
 def main():
     # Example usage
